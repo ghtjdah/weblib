@@ -22,4 +22,3 @@ print(body)
 connection.request('GET','/babo.html')
 response=connection.getresponse()
 print(response.status, response.reason)
-
